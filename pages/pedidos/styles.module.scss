@@ -1,0 +1,72 @@
+.container{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  
+  align-items: center;
+  width: 60%;
+  margin: 10px auto;
+  border-radius: 10px;
+  background: #dadade;
+}
+.container h1{
+  color: #fff;
+}
+.containerHeader{
+  display: flex;
+  
+  flex-direction: row;
+  margin-bottom: 1rem;
+  
+
+  button{
+    background: transparent;
+    border: 0;
+    margin-left: 1rem;
+  }
+
+}
+
+.listOrders{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  
+  width: 60%;
+}
+.orderItem{
+  display: flex;
+  flex-direction: row;
+  background-color: #101026;
+  margin-bottom: 1rem;
+  align-items: center;
+  border-radius: 0.3rem;
+
+  button{
+    border: 0;
+    background: transparent;
+    font-size: 1.2rem;
+    color: #fff;
+    height: 60px;
+    align-items: center;
+    display: flex;
+  }
+}
+.tag{
+  width: 9px;
+  background-color: #3fffa3;
+  height: 60px;
+  border-radius: 0.3rem 0 0 0.3rem;
+  margin-right: 1rem;
+}
+.separation{
+  
+  display: flex;
+}
+
+
+
+
+
