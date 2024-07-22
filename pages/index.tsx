@@ -41,7 +41,7 @@ export default function Home() {
     </title>
   </Head>
    <div className={styles.containerCenter}>
-  <Image src={logoImg} className={styles.logo} alt="Logo Sujeito Pizzaria" />
+  <h1>PARKING</h1>
   
   <div className={styles.login}>
     <h1>Login</h1>
